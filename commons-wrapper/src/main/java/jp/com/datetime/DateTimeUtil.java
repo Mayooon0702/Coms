@@ -3,12 +3,10 @@
  */
 package jp.com.datetime;
 
-import java.time.LocalDate;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.ResolverStyle;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Date;
 import java.util.regex.Pattern;
 
 
@@ -151,6 +149,31 @@ public class DateTimeUtil {
     	return DateTimeFormatter.ofPattern(format).format(localDateTime);
     }
 
+    /**
+     * システム日付を文字列で取得
+     * <per>
+     * デフォルトのロケール、タイムゾーンの日付を取得
+     * </pre>
+     * @return SYSTEM日付の文字列 YYYYMMDDHHMMSSを返却
+     */
+    public static String getSysDate(){
+        // TODO 未完成
+        return (new SimpleDateFormat("yyyy/MM/dd HH:mm:ss")).format(new Date());
+    }
+
+    /**
+     * システム日付を文字列で取得
+     * <per>
+     * デフォルトのロケール、タイムゾーンの日付を取得
+     * </pre>
+     * @return SYSTEM日付の文字列 YYYYMMDDHHMMSSを返却
+     */
+    public static String getSysDate(String format){
+        // TODO 未完成
+        return (new SimpleDateFormat(format)).format(new Date());
+    }
+    
+    
     //TODO DateTime型も追加
     
 }
