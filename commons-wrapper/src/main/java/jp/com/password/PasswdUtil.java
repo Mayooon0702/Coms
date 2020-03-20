@@ -30,7 +30,7 @@ public class PasswdUtil {
 	
 	/**
 	 * 新たにパスワードを払い出す
-	 * @return String（8byte）
+	 * @return String
 	 */
 	private static String create(int keta) {
 		
