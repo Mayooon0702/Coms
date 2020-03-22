@@ -33,7 +33,6 @@ public class PasswdUtil {
 	 * @return String
 	 */
 	private static String create(int keta) {
-		
 		char[] generated = new char[keta];
 		String candidateAll = "";
 		int watermark = 0;
@@ -46,7 +45,6 @@ public class PasswdUtil {
 		int max = candidates.length;
 		try {
 			SecureRandom sr = SecureRandom.getInstance("SHA1PRNG");
-	 
 			if (keta < candidates.length) {
 				max = keta;
 			}

@@ -1,7 +1,7 @@
 /**
  * DatetimeUtilƒNƒ‰ƒX 
  */
-package jp.com.datetime;
+package jp.com.util;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

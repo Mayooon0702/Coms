@@ -1,9 +1,11 @@
-package jp.com.datetime;
+package jp.com.util;
 
 import static org.junit.Assert.assertEquals;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import org.junit.Test;
+
+import jp.com.util.DateUtil;
 
 class DateUtilTest {
 

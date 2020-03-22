@@ -1,7 +1,7 @@
 /**
  * 
  */
-package jp.com.arithmetics;
+package jp.com.util;
 
 import java.util.UUID;
 

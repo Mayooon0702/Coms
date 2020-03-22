@@ -1,7 +1,7 @@
 /**
  * DatetimeUtilƒNƒ‰ƒX 
  */
-package jp.com.datetime;
+package jp.com.util;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
@@ -47,11 +47,11 @@ public class DateTimeUtil {
 	};
 	
 	
-	/**
-	 * 
-	 * @param dateStr
-	 * @return
-	 */
+    /**
+     * •¶Žš—ñ‚ðLocalDateTime‚É•ÏŠ·
+     * @param dateStr DateTime‚Ì•¶Žš—ñ
+     * @return LocalDateTime
+     */
     public static LocalDateTime convert(String dateStr) {
     	LocalDateTime localDateTime = null;
     	try {

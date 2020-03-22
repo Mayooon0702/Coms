@@ -1,8 +1,10 @@
-package jp.com.arithmetics;
+package jp.com.util;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import jp.com.util.RandomUtil;
 
 public class RandomUtilTest {
 
